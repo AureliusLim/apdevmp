@@ -7,3 +7,14 @@ function openNav() {
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   }
+
+  function login(){
+    //still to be added here if user entered correct password and username
+    window.location.href="home.html";
+    
+  }
+  function logout(){
+    //still to be added here if user entered correct password and username
+    window.location.href="index.html";
+    
+  }

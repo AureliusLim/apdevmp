@@ -3,7 +3,9 @@ body{
     background: linear-gradient(#5fbfff,#294e5f);
     height:100vh;
 }
-
+.animation .boxes{
+  z-index: -1;
+}
 .boxes{
     position: absolute;
     top: 0;
@@ -117,7 +119,19 @@ body{
     transition: margin-left .5s;
     padding: 20px;
   }
-  
+  #logout{
+    background-color: #fc081c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
+    float: right;
+  }
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
     .sidenav {padding-top: 15px;}
@@ -125,14 +139,16 @@ body{
   }
   
   .libraryButton{
-    text-decoration:none;
-    background-color: green;
-    display:block;
-    color:black;
-    text-align:center;
-    margin-bottom: 1px;
-    width:100px;
-    font-family:Verdana;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 20px 2px;
+    cursor: pointer;
   }
   
    a:hover, a:active{
